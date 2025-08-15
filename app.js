@@ -32,7 +32,6 @@ function agregarAmigo() {
     input.focus();
 }
 
-
 // Funcion para sortear el nombre
     function sortearAmigo() {
 
