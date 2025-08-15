@@ -30,3 +30,9 @@ function agregarAmigo() {
     input.value = '';
 }
 
+// Funcion para sortear el nombre
+    function sortearAmigo() {
+        const nombreSorteado = amigos[Math.floor(Math.random() *amigos.length)];
+        const resultado = document.getElementById('resultado');
+        resultado.textContent = 'El amigo sorteado es: ' + nombreSorteado
+}
