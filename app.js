@@ -29,6 +29,7 @@ function agregarAmigo() {
 
 // Limpia el input
     input.value = '';
+    input.focus();
 }
 
 // Funcion para sortear el nombre
